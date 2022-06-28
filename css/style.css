@@ -1,5 +1,9 @@
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
+}
+body {
   font-family: "Roboto", sans-serif;
 }
 @font-face {
@@ -14,9 +18,9 @@
 }
 .container {
   max-width: 1137px;
-  margin: auto;
+  margin: 0 auto;
 }
-.header-container {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -34,7 +38,7 @@
 .nav-link {
   text-decoration: none;
   color: #202020;
-  margin: 0 11px 0 11px;
+  margin-right: 22px;
 }
 .account {
   text-decoration: none;
@@ -47,7 +51,7 @@
   display: flex;
   padding: 62px 0 71px 0;
 }
-.hero-container {
+.hero-wrapper {
   display: flex;
   align-items: center;
 }
@@ -106,7 +110,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: inherit;
+  background-color: #fff;
   border: none;
 }
 .heart {
@@ -148,7 +152,7 @@
   background-color: #f1f1f1;
   padding: 95px 0;
 }
-.about-container {
+.about-wrapper {
   display: flex;
   align-items: flex-start;
 }
@@ -160,7 +164,7 @@
   font-size: 32px;
   font-weight: 700;
   color: #202020;
-  margin-bottom: 35px;
+  margin-bottom: 57px;
 }
 .summary {
   font-size: 16px;
@@ -181,6 +185,7 @@
   margin-bottom: 27px;
 }
 .author-avatar {
+  object-fit: cover;
   width: 100px;
   height: 100px;
   border-radius: 50%;
