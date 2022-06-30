@@ -13,8 +13,13 @@ body {
 }
 
 .header {
-  padding: 11px 0;
+  position: fixed;
+  width: 100%;
+  padding: 22px 0;
   background-color: #f1f1f1;
+  z-index: 1;
+  left: 0; /*у нас и дез данного свойства все работает но в уроке и в интернете пишут данное свойство нужно ли оно?*/
+  top: 0; /*у нас и дез данного свойства все работает но в уроке и в интернете пишут данное свойство нужно ли оно?*/
 }
 .container {
   max-width: 1137px;
@@ -50,13 +55,26 @@ body {
 .hero {
   display: flex;
   padding: 62px 0 71px 0;
+  margin-top: 60px;
 }
 .hero-wrapper {
   display: flex;
   align-items: center;
 }
 .img {
+  position: relative;
   margin-right: 122px;
+}
+.sale {
+  position: absolute;
+  top: 23px;
+  right: 0;
+  padding: 12px 17px;
+
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #c93535;
 }
 
 .author {
@@ -235,4 +253,59 @@ body {
   width: 165px;
   height: 165px;
   object-fit: cover;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 93px;
+  background-color: #f1f1f1;
+}
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.reguisites {
+  margin-right: 167px;
+}
+.footer-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #202020;
+  margin-bottom: 30px;
+}
+.footer-list {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+}
+.list-items {
+  margin-bottom: 15px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #202020;
+}
+.informations {
+  margin-right: 158px;
+}
+.to-top {
+  position: fixed;
+  bottom: 113px;
+  right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 120px 0px rgba(161, 161, 161, 0.07);
+  border-radius: 4px;
+  background-color: #fff;
+}
+.to-tops {
+}
+.to-top-img {
+  width: 20px;
+  height: 20px;
+  transform: rotate(90deg);
 }
