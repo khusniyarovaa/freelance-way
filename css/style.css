@@ -110,6 +110,7 @@ body {
 }
 .date {
   flex-basis: 38%;
+  margin-bottom: 16px;
 }
 .type {
   flex-basis: 38%;
@@ -179,6 +180,7 @@ body {
   margin-right: 130px;
 }
 .section-title {
+  margin: 0;
   font-size: 32px;
   font-weight: 700;
   color: #202020;
@@ -270,6 +272,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   color: #202020;
+  margin: 0;
   margin-bottom: 30px;
 }
 .footer-list {
@@ -302,10 +305,398 @@ body {
   border-radius: 4px;
   background-color: #fff;
 }
-.to-tops {
-}
 .to-top-img {
   width: 20px;
   height: 20px;
   transform: rotate(90deg);
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .hero {
+    padding-bottom: 90px;
+  }
+  .img {
+    margin-right: 29px;
+    min-width: 390px;
+  }
+  .img-book {
+    width: 100%;
+  }
+  .about-text {
+    max-width: 367px;
+    margin-right: 52px;
+  }
+  .photo {
+    width: 139px;
+    height: 139px;
+  }
+  .readers {
+    padding-top: 69px;
+    padding-bottom: 94px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 761px;
+  }
+  .hero {
+    padding-top: 59px;
+    padding-bottom: 79px;
+  }
+  .img {
+    margin-right: 30px;
+    min-width: 298px;
+  }
+  .img-book {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+  .about-text {
+    max-width: 367px;
+    margin-right: 130px;
+  }
+  .author {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 13px;
+  }
+  .title {
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    margin-bottom: 28px;
+  }
+  .description {
+    margin-bottom: 25px;
+  }
+  .date {
+    flex-basis: 45%;
+  }
+  .type {
+    flex-basis: 45%;
+  }
+  .price {
+    margin-bottom: 25px;
+  }
+  .button-read {
+    font-size: 14px;
+    margin-right: 14px;
+    width: 200px;
+  }
+  .button-buy {
+    font-size: 14px;
+    width: 200px;
+  }
+  .about-wrapper {
+    flex-wrap: wrap;
+  }
+  .about {
+    padding-top: 81px;
+    padding-bottom: 82px;
+  }
+  .about-text {
+    margin: 0;
+    min-width: 100%;
+    margin-bottom: 62px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .readers {
+    padding-top: 74px;
+    padding-bottom: 81px;
+  }
+  .photo {
+    width: 165px;
+    height: 165px;
+  }
+  .photo-15,
+  .photo-16,
+  .photo-25,
+  .photo-26 {
+    display: none;
+  }
+  .readers-photo-top {
+    margin-bottom: 30px;
+  }
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
+  .footer-wrapper {
+    flex-wrap: nowrap;
+  }
+  .reguisites {
+    margin-right: 50px;
+  }
+  .informations {
+    margin-right: 50px;
+  }
+  .to-top {
+    bottom: 90px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  .sale {
+    padding: 4% 5%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .hero {
+    padding-top: 40px;
+  }
+  .hero-wrapper {
+    flex-wrap: wrap;
+  }
+  .img {
+    min-width: 100%;
+    margin-bottom: 60px;
+  }
+  .about {
+    padding-bottom: 89px;
+  }
+  .about-text {
+    margin-bottom: 70px;
+  }
+  .readers {
+    padding-top: 80px;
+    padding-bottom: 85px;
+  }
+  .photo-14,
+  .photo-24 {
+    display: none;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+  .footer {
+    padding-bottom: 78px;
+  }
+  .informations {
+    margin: 0;
+  }
+  .reguisites {
+    margin-bottom: 60px;
+  }
+  .sale {
+    padding: 4% 8%;
+    font-size: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 481px;
+  }
+  .hero {
+    padding-bottom: 64px;
+  }
+  .author {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 19px;
+  }
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 31px;
+  }
+  .description {
+    flex-direction: column;
+    margin-bottom: 36px;
+  }
+
+  .description-text {
+    margin-bottom: 19px;
+  }
+  .age {
+    margin: 0;
+  }
+  .price {
+    margin-right: 28px;
+    margin-bottom: 36px;
+  }
+  .cost {
+    margin-right: 28px;
+  }
+  .add {
+    display: none;
+  }
+  .button-read {
+    min-width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .button-buy {
+    min-width: 100%;
+    font-size: 16px;
+  }
+  .info {
+    min-width: 100%;
+  }
+  .about {
+    padding-top: 60px;
+    padding-bottom: 97px;
+  }
+  .readers {
+    padding: 0;
+    padding-top: 55px;
+    padding-bottom: 69px;
+  }
+  .section-title {
+    margin-bottom: 35px;
+  }
+  .photo {
+    width: 144px;
+    height: 144px;
+  }
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 75px;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer-list {
+    margin: 0;
+  }
+  .reguisites {
+    margin-bottom: 32px;
+  }
+  .informations {
+    margin-bottom: 32px;
+  }
+  .link-url {
+    display: none;
+  }
+  .to-top {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    max-width: 83%;
+    margin: auto;
+  }
+
+  .hero {
+    min-width: 100%;
+    padding-top: 15%;
+    padding-bottom: 19%;
+  }
+  .author {
+    font-size: 16px;
+    margin-bottom: 6%;
+  }
+  .title {
+    font-size: 24px;
+    margin-bottom: 4%;
+  }
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 13%;
+  }
+  .description {
+    margin-bottom: 14%;
+  }
+  .description-text {
+    font-size: 14px;
+    margin-bottom: 7%;
+  }
+  .age {
+    margin: 0;
+  }
+  .price {
+    margin-bottom: 14%;
+  }
+  .button-read {
+    max-width: 83%;
+    margin-bottom: 6%;
+  }
+  .about-author {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .about {
+    padding-top: 19%;
+    padding-bottom: 17%;
+  }
+  .about-text {
+    margin-bottom: 19%;
+  }
+  .section-title {
+    margin-bottom: 13%;
+  }
+  .about-author {
+    padding: 12% 9% 16% 9%;
+  }
+  .author-avatar {
+    margin-right: 6%;
+    width: 27%;
+    height: 27%;
+  }
+
+  .author-link {
+    font-size: 14px;
+  }
+  .link-url {
+    display: none;
+  }
+  .img {
+    max-width: 83%;
+    margin-right: 0;
+    margin-bottom: 18%;
+  }
+  .readers {
+    padding-top: 19%;
+    padding-bottom: 19%;
+  }
+  .photo {
+    width: 47%;
+    height: 40%;
+  }
+  .readers-photo-top {
+    margin-bottom: 5%;
+  }
+  .photo-13,
+  .photo-23 {
+    display: none;
+  }
+  .footer {
+    padding-top: 19%;
+    padding-bottom: 24%;
+  }
+  .footer-title {
+    margin-bottom: 15%;
+  }
+  .reguisites {
+    margin: 0;
+    margin-bottom: 14%;
+  }
+  .footer-list {
+    margin: 0;
+  }
+  .informations {
+    margin-bottom: 14%;
+  }
+  .sale {
+    padding: 4% 5%;
+    font-size: 14px;
+  }
+  .to-top {
+    display: none;
+  }
 }
