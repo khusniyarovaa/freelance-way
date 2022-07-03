@@ -350,9 +350,7 @@ body {
     margin-right: 30px;
     min-width: 298px;
   }
-  .img-book {
-    width: 100%;
-  }
+
   .nav {
     display: none;
   }
@@ -417,10 +415,8 @@ body {
     width: 165px;
     height: 165px;
   }
-  .photo-15,
-  .photo-16,
-  .photo-25,
-  .photo-26 {
+
+  .photo:nth-child(n + 5) {
     display: none;
   }
   .readers-photo-top {
@@ -474,8 +470,8 @@ body {
     padding-top: 80px;
     padding-bottom: 85px;
   }
-  .photo-14,
-  .photo-24 {
+
+  .photo:nth-child(n + 4) {
     display: none;
   }
   .footer-wrapper {
@@ -656,7 +652,6 @@ body {
     display: none;
   }
   .img {
-    max-width: 83%;
     margin-right: 0;
     margin-bottom: 18%;
   }
@@ -671,8 +666,8 @@ body {
   .readers-photo-top {
     margin-bottom: 5%;
   }
-  .photo-13,
-  .photo-23 {
+
+  .photo:nth-child(n + 3) {
     display: none;
   }
   .footer {
